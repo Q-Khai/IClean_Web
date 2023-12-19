@@ -1,0 +1,11 @@
+.action-bar-container {
+  .button-container {
+    color: $white-color;
+    background-color: $blue-color;
+    border-color: $white-color;
+    font-weight: 700;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

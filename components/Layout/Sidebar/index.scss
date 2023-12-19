@@ -1,0 +1,60 @@
+.sidebar_custom {
+  transition: width 0.2s !important;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #6c86a0;
+    border-radius: 2px;
+    padding: 10px 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #031529;
+  }
+
+  .ant-menu-vertical {
+    .ant-menu-title-content {
+      display: none;
+    }
+    .ant-menu-submenu {
+      .ant-menu-submenu-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        .ant-menu-submenu-arrow {
+          display: none;
+        }
+      }
+    }
+
+    .ant-menu-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .toggle_sidebar_wrap {
+    display: flex;
+    justify-content: end;
+
+    .button_toggle_sidebar {
+      padding: 5px;
+      color: #fff;
+      text-align: end;
+    }
+  }
+}
+
+.sidebar_hide {
+  width: 0px !important;
+}
+
+.sidebar_show {
+  width: 230px !important;
+}

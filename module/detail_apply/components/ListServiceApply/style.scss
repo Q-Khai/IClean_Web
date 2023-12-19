@@ -1,0 +1,29 @@
+.list-service-apply-container {
+  .item-service {
+    width: 100%;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    border: 1.5px solid #ced4da;
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .row1 {
+      .service {
+        margin-bottom: 10px;
+
+        span {
+          font-weight: 500;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .item-service:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+}

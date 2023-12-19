@@ -1,0 +1,29 @@
+.detail-apply-container {
+  padding: 20px 0;
+
+  .button-reject {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .detail-apply-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+
+    .info-helper {
+      width: 45%;
+      min-width: 500px;
+    }
+
+    .list-service {
+      max-height: 620px;
+      overflow: auto;
+      margin: 0 3%;
+      min-width: 200px;
+      max-width: 700px;
+      flex-grow: 1;
+    }
+  }
+}

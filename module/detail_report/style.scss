@@ -1,0 +1,42 @@
+.detail_report_container {
+  height: 800px;
+  overflow: hidden;
+  overflow-y: auto;
+  font-size: 18px;
+
+  .detail_report {
+    padding: 0 10px;
+    .title {
+      margin: 20px 0;
+    }
+    .report_item {
+      display: flex;
+      justify-content: space-between;
+      .report_item-info {
+        width: 70%;
+      }
+    }
+  }
+  .refund {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .img {
+    object-fit: cover;
+  }
+  .btn {
+    border-radius: 25px;
+    float: right;
+  }
+}
+
+.detail_report_container,
+.detail_report,
+.report_item span,
+.report_item-info,
+.img,
+.refund label,
+.refund textarea {
+  font-size: 18px;
+}

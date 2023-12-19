@@ -1,0 +1,87 @@
+.button-global-container {
+  .button {
+    border-width: 2px;
+    padding: 5px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .primary {
+    color: #1890ff;
+    border-color: #1890ff;
+  }
+  .primary-filled {
+    color: #ffffff;
+    border-color: #1890ff;
+    background-color: #1890ff;
+  }
+  .danger {
+    color: #f5222d;
+    border-color: #f5222d;
+  }
+  .green {
+    color: #52c41a;
+    border-color: #52c41a;
+  }
+  .default {
+    border-color: rgb(217, 217, 217);
+  }
+  .colorYes {
+    border: 1px solid #b8ea8f;
+    background-color: #f7ffec;
+    color: #389d0d;
+    cursor: unset;
+    padding: 0 30px;
+    font-size: 14px;
+  }
+  .colorNo {
+    border: 1px solid #ffbb96;
+    color: #d5370c;
+    cursor: unset;
+    background-color: #fff1e8;
+  }
+  .colorStatusPrimary {
+    color: #1890ff;
+    border: 1px solid #1890ff;
+    border-radius: 3px;
+  }
+  .colorStatusDefault {
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+  }
+  .start-icon {
+    margin-right: 5px;
+  }
+  .end-icon {
+    margin-left: 5px;
+  }
+
+  // hover
+  .primary:hover {
+    color: #60aef8;
+    border-color: #99caf8;
+  }
+  .danger:hover {
+    color: #ff7875;
+    border-color: #ffa39e;
+  }
+  .green:hover {
+    color: #87f450;
+    border-color: #abf984;
+  }
+  .default:hover {
+    color: gray;
+  }
+}
+
+.filterGroupGlobal-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+
+.btn-group-item {
+  margin-left: 10px;
+}

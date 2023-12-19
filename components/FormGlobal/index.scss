@@ -1,0 +1,26 @@
+.ant-select-multiple {
+  .ant-select-selector {
+    .ant-select-selection-overflow {
+      flex-wrap: unset;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+.input-global {
+  border-radius: 5px;
+}
+
+.ant-form-item-label > label::after {
+  content: "";
+}
+
+.custom {
+  .ant-select-selection-overflow {
+    flex-wrap: wrap !important;
+  }
+}

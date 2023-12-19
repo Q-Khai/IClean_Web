@@ -1,0 +1,56 @@
+{
+  "common": {
+    "ok": "Ok",
+    "cancel": "Hủy bỏ",
+    "save": "Lưu",
+    "confirm": "Xác nhận",
+    "create": "Thêm mới1",
+    "confirm-delete": "Bạn có chắc chắn muốn xoá?"
+  },
+  "manager_permission": {
+    "name": "Name",
+    "showname": "Showname",
+    "url": "URL",
+    "action": "Action",
+    "identification": "Identification",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "korean": "Korean",
+    "description": "Description",
+    "group": "Group",
+    "create_permission": "Create permission",
+    "edit_permission": "Edit permission"
+  },
+  "manager_content": {
+    "registration_content": {
+      "type": "Loại",
+      "name_content": "Tên nội dung",
+      "content_code": "Mã nội dung",
+      "category": "Thể loại",
+      "is_use": "Có nên sử dụng",
+      "register_date": "Ngày đăng kí",
+      "total": "Tổng cộng",
+      "download_excel": "Tải xuống tệp excel",
+      "register_content": "Đăng ký nội dung",
+      "video": "Video",
+      "external_content": "Nội dung bên ngoài",
+      "Visang_URL": "Visang URL",
+      "schedule": "Lịch giảng dạy",
+      "use": "Sử dụng",
+      "not_use": "Không sử dụng",
+      "search": "Tìm kiếm",
+      "refresh": "Đặt lại",
+      "attach": "Đính kèm",
+      "description": "Diễn giải",
+      "list": "Danh sách",
+      "auto_register": "※ Tự động cấp sau đăng ký"
+    }
+  },
+  "member_management": {
+    "user_id": "Mã người dùng",
+    "company_name": "Tên công ty",
+    "country": "Quốc gia",
+    "major": "Lĩnh vực",
+    "area": "Khu vực"
+  }
+}

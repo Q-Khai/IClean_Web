@@ -1,0 +1,26 @@
+.preview-global {
+  position: relative;
+  .overlay {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba($color: #000, $alpha: 0.3);
+    display: none;
+
+    .icon-preview {
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

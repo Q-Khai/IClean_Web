@@ -1,0 +1,84 @@
+.login-screen {
+  width: 100%;
+  background-color: #fff;
+
+  .label-input {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+    .logo {
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      .menu-item {
+        text-decoration: none;
+        margin-right: 32px;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+    .logo_visang {
+      position: fixed;
+      top: 0;
+      left: 20px;
+      height: 80px;
+    }
+
+    .logo {
+      height: 200px;
+    }
+
+    .login-form-item {
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      .input_login {
+        width: 370px;
+        height: 50px;
+      }
+    }
+
+    .forgot-password-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      margin-bottom: 30px;
+
+      .forgot-password_link {
+        color: #1890ff;
+        cursor: pointer;
+      }
+    }
+
+    .btn-login {
+      height: 50px;
+      width: 370px;
+      margin-left: 0;
+      margin-top: 16px;
+      background-color: #ad82d9;
+      border: #ad82d9;
+      border-radius: 25px;
+    }
+  }
+}

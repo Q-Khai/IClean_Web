@@ -1,0 +1,3 @@
+REACT_APP_ENV=development
+REACT_APP_URL=https://iclean.azurewebsites.net/swagger-ui/index.html#/
+NEXT_PUBLIC_DISPLAY_ERROR=true

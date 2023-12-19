@@ -1,0 +1,12 @@
+.main {
+  transition: width 0.2s !important;
+  position: relative;
+}
+
+.main_sidebar_open {
+  width: calc(100% - 230px);
+}
+
+.main_sidebar_close {
+  width: 100%;
+}

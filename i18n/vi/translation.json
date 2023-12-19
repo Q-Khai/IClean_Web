@@ -1,0 +1,172 @@
+{
+  "common": {
+    "ok": "Ok",
+    "cancel": "Hủy bỏ",
+    "save": "Lưu",
+    "confirm": "Xác nhận",
+    "create": "Thêm mới1",
+    "confirm-delete": "Bạn có chắc chắn muốn xoá?"
+  },
+  "manager_permission": {
+    "name": "Name",
+    "showname": "Show Name",
+    "url": "URL",
+    "action": "Action",
+    "identification": "Identification",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "korean": "Korean",
+    "description": "Description",
+    "group": "Group",
+    "create_permission": "Thêm quyền hạn",
+    "edit_permission": "Sửa quyền hạn"
+  },
+  "manager_content": {
+    "registration_content": {
+      "type": "Loại",
+      "name_content": "Tên nội dung",
+      "content_code": "Mã nội dung",
+      "category": "Thể loại",
+      "is_use": "Có nên sử dụng",
+      "register_date": "Ngày đăng kí",
+      "total": "Tổng cộng",
+      "download_excel": "Tải xuống tệp excel",
+      "register_content": "Đăng ký nội dung",
+      "video": "Video",
+      "external_content": "Nội dung bên ngoài",
+      "Visang_URL": "Visang URL",
+      "schedule": "Lịch giảng dạy",
+      "use": "Sử dụng",
+      "not_use": "Không sử dụng",
+      "search": "Tìm kiếm",
+      "refresh": "Đặt lại",
+      "attach": "Đính kèm",
+      "description": "Diễn giải",
+      "list": "Danh sách",
+      "auto_register": "※ Tự động cấp sau đăng ký"
+    }
+  },
+  "member_management": {
+    "user_id": "Mã người dùng",
+    "company_name": "Tên công ty",
+    "country": "Quốc gia",
+    "major": "Lĩnh vực",
+    "area": "Khu vực",
+    "phonenumber": "Số điện thoại",
+    "email": "Email",
+    "level": "Trình độ Topik"
+  },
+  "company_member_management": {
+    "company_id": "ID công ty",
+    "company_logo": "Logo công ty",
+    "company_name": "Tên công ty",
+    "major": "Lĩnh vực",
+    "topikLevel": "Trình độ TOPIK",
+    "area": "Khu vực",
+    "phone_number": "Số điện thoại",
+    "email": "Email",
+    "registration_date": "Ngày đăng ký",
+    "last_access": "Lần truy cập cuối",
+    "status": "Trạng thái phê duyệt",
+    "login": "Đăng nhập",
+    "action": "Thao tác"
+  },
+  "manager_page": {
+    "manger_popup": {
+      "image": "Hình ảnh",
+      "title": "Tiêu đề",
+      "author": "Người tạo",
+      "datePost": "Thời gian đăng",
+      "dateCreatePost": "Ngày tạo",
+      "state": "Trạng thái",
+      "action": "Thao tác",
+      "add_popup": {
+        "title": "Thêm Popup"
+      },
+      "edit_popup": {
+        "title": "Sửa Popup"
+      }
+    },
+    "manager_banner": {
+      "titleBanner": "Tên biểu ngữ",
+      "location": "Vị trí",
+      "image": "Hình ảnh",
+      "link": "Liên kết",
+      "useState": "Trạng thái sử dụng",
+      "dateSignUp": "Ngày đăng ký",
+      "action": "Hành động",
+      "add_banner": {
+        "title": "Thêm Banner"
+      },
+      "edit_banner": {
+        "title": "Sửa Banner"
+      }
+    }
+  },
+  "manager_level_test": {
+    "list_exam": {
+      "name": "Tên học viên",
+      "id_student": "ID Học Viên",
+      "point": "Điểm số",
+      "level": "Cấp độ",
+      "numberOfCorrectAnswer": "Số câu đúng",
+      "dateTest": "Ngày kiểm tra",
+      "pageJoinTest": "Trang tham gia",
+      "phoneNumber": "Số điện thoại",
+      "email": "Email",
+      "action": "Hành động"
+    },
+    "list_question": {
+      "content_question": "Nội dung câu hỏi",
+      "question": "Câu hỏi",
+      "image": "Hình ảnh",
+      "answer1": "Đáp án 1",
+      "answer2": "Đáp án 2",
+      "answer3": "Đáp án 3",
+      "answer4": "Đáp án 4",
+      "correct_answer": "Đáp án đúng",
+      "action": "Thao tác",
+      "file_desktop": "Hình ảnh",
+      "urlimgques": "Link URL",
+      "create": {
+        "title": "Thêm câu hỏi"
+      },
+      "edit": {
+        "title": "Cập nhật câu hỏi"
+      }
+    }
+  },
+  "course_consulting": {
+    "user_name": "Tên người dùng",
+    "email": "Địa chỉ email",
+    "phone_number": "Số điện thoại",
+    "registration_page": "Trang đăng ký",
+    "registration_date": "Ngày đăng ký",
+    "interest_course": "Khóa học quan tâm",
+    "message": "Lời nhắn",
+    "action": "Thao tác"
+  },
+  "user_access": {
+    "month": "Tháng",
+    "week": "Tuần",
+    "day": "Ngày",
+    "master_korean": "Master Korean",
+    "master_korean_live": "Master Korean Live",
+    "master_korean_jobs": "Master Korean Jobs",
+    "blog": "Blog",
+    "total": "Tổng số"
+  },
+  "level_management_test": {
+    "student_name": "Tên học viên",
+    "student_id": "ID học viên",
+    "score": "Điểm số",
+    "level": "Cấp độ",
+    "correct_answer": "Số câu đúng",
+    "test_date": "Ngày kiểm tra",
+    "page_joined": "Trang tham gia",
+    "suitable_course": "Khóa học phù hợp",
+    "phone_number": "Số điện thoại",
+    "email": "Địa chỉ email",
+    "action": "Thao tác"
+  }
+}

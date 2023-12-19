@@ -1,0 +1,38 @@
+.contentTable {
+  width: 100%;
+  display: inline-table;
+  .field_title {
+    height: auto;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-weight: 500;
+    color: #202020;
+    font-size: 15px;
+    width: 7%;
+    .field_title_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .obligatory {
+        display: flex;
+        margin-left: 5px;
+        color: red;
+      }
+    }
+  }
+  .field_value {
+    height: auto;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    color: #707070;
+    background: white;
+    .field_value_content {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

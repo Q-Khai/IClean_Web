@@ -1,0 +1,35 @@
+.upload-file-global {
+  position: relative;
+  margin-bottom: 20px;
+
+  .ant-upload.ant-upload-select-picture-card {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+  }
+
+  .ant-upload-list-picture-card-container {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+  }
+
+  .ant-upload-list-picture-container {
+    width: 210px;
+  }
+
+  .label {
+    margin-bottom: 10px;
+  }
+
+  .required {
+    color: red;
+  }
+
+  .error-mess {
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+    color: #ff4d4f;
+  }
+}

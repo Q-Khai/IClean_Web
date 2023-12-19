@@ -1,0 +1,19 @@
+.input-global {
+  width: 100%;
+
+  .title {
+    padding-bottom: 2px;
+  }
+}
+
+.input-link-global {
+  .label-wrap {
+    margin: 10px 0;
+    .required {
+      color: red;
+    }
+  }
+  .ant-input {
+    color: #1890ff;
+  }
+}
